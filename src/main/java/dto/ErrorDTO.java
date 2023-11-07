@@ -12,6 +12,6 @@ import lombok.ToString;
 public class ErrorDTO {
           int status;
           String error;
-          String message;
+          Object message;
           // "path": "string"
 }
